@@ -31,6 +31,7 @@ public class Demo {
 	public void logoTest() {
 		boolean logo = driver.findElement(By.xpath("//img[@alt='Google']")).isDisplayed();
 		System.out.println(logo);
+		System.out.println(github);
 	}
 
 	@Test(priority = 2)
